@@ -53,16 +53,16 @@ class BlogController extends Controller
 
     public function update($blogId) {
 
-        $blog = new Blog();
-        $blog->author = request('author');
-        $blog->title = request('title');
-        $blog->content = request('content');
-        $blog->preview = substr(request('content'), 0, 250);
-        $blog->tags = explode(" ", request('tags'));
-        $blog->save();
+        $blog = Blog::findOrfail($blogId);
+        $blog->update([
+            'author'=> request('author'),
+            'title'=> request('title'),
+            'content'=> request('content'),
+            'preview'=> substr(request('content'), 0, 250),
+            'tags'=> explode(" ", request('tags')),
 
-        $oldBlog = Blog::findOrFail($blogId);
-        $oldBlog->delete();
+        ]);
+        // error_log(json_encode($blog));
 
         return redirect('/')->with('mssg', 'The Blog has been successfully edited');
     }

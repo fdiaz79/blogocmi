@@ -12,4 +12,6 @@ class Blog extends Model
     protected $casts = [
         'tags' => 'array'
     ];
+
+    protected $guarded = [];
 }
