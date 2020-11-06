@@ -1,4 +1,3 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 <p align="center">OCMI BLOGS </p>
 
 
@@ -14,9 +13,11 @@ OCMI Blogs is a basic blog application developed with blade, Bootstrap, HTML, CS
 
 ## Blogs List
 
-<img src="https://github.com/fdiaz79/blogocmi/tree/master/public/images/index.PNG" width="400">
+<img src="https://github.com/fdiaz79/blogocmi/tree/master/public/images/index.png" width="400">
 
 This page may be accessed by everybody. Provides a preview, date of creation author and tags of every blog. The blogs are loaded from the most recently post to the oldest. Click on Read more to get to see the whole content of the desired blog.
+
+![screenshot](https://github.com/fdiaz79/blogocmi/tree/master/public/images/index.PNG)
 
 
 ## Blog Content
