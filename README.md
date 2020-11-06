@@ -11,11 +11,13 @@ OCMI Blogs is a basic blog application developed with blade, Bootstrap, HTML, CS
 - Creation of blogs only by registered users
 - Edit and deletion of blogs only by the autor of each blogs
 
+
 ## Blogs List
 
 ![screenshot](/public/images/index.PNG)
 
 This page may be accessed by everybody. Provides a preview, date of creation author and tags of every blog. The blogs are loaded from the most recently post to the oldest. Click on Read more to get to see the whole content of the desired blog.
+
 
 
 ## Blog Content
@@ -29,6 +31,7 @@ But if you are the author of the blog, 2 buttons will appear at the bottom left 
 ![screenshot](/public/images/userBlog.PNG)
 
 
+
 ## Creating a Blog
 If you want to create a blog, first you need to log in (or register if you hadn't done so) 
 
@@ -38,6 +41,7 @@ If you want to create a blog, first you need to log in (or register if you hadn'
 After logging you only need to add the Title, content and tags for this blog. The author is automatically populated with your name, but if you want to change the name, you can do it, but you won't be able to edit or delete it later:
 
 ![screenshot](/public/images/addBlog.PNG)
+
 
 
 ## Editing a Blog
