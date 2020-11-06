@@ -1,0 +1,31 @@
+.blogBody {
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+}
+
+.links a {
+    text-decoration: none;
+    /* color: black; */
+
+}
+
+.smallText {
+    font-size: .8rem;
+    font-style: italic;
+}
+
+.blogTitle {
+    background-color: #f7f7f7;
+}
+
+.blogContainer {
+    border: 1px solid #9b479f;
+    border-radius: 6px;
+}
+
+
+
+
