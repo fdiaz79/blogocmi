@@ -18,7 +18,7 @@
                                         @csrf
                                         {{-- FAKES THE DELETE REQUEST --}}
                                         @method('delete')
-                                        <button type="submit" class="btn btn-primary btn-sm btn-block">Delete this Blog</button>
+                                        <button type="submit" class="btn btn-primary btn-sm btn-block" onclick="return confirm('Are you sure tou want to delete this blog?')">Delete this Blog</button>
                                     </form>
                                 </div>
                                 <div class="col-2 pt-2">
